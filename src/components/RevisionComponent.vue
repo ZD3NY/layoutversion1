@@ -19,7 +19,7 @@
           <td class="px-4 py-2">{{ revision.name }}</td>
           <td class="px-4 py-2">
             <span v-if="revision.status === 'Prošlá'" class="bg-red-200 text-red-700 font-medium px-2 py-1 rounded-full">Prošlá</span>
-            <span v-else-if="revision.status === 'Blížící se'" class="bg-yellow-200 text-yellow-700 font-medium px-2 py-1 rounded-full">Blížící se</span>
+            <span v-else-if="revision.status === 'Blížící se'" class="bg-yellow-200 text-yellow-700 font-medium px-2 py-1 rounded-full whitespace-nowrap">Blížící se</span>
           </td>
           <td class="px-4 py-2 text-right">
             <a :href="revision.documentLink" target="_blank" class="text-blue-500 hover:text-blue-700">Detail</a>
