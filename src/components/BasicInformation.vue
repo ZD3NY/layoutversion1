@@ -13,15 +13,15 @@
     <div class="grid grid-cols-4 gap-4">
       <div v-for="(item, index) in firstHalf" :key="`first-${index}`" class="col-span-2">
         <div class="flex justify-between relative pb-2">
-          <span class="text-gray-500">{{ item.label }}</span>
-          <span class="text-black">{{ item.value }}</span>
+          <span class="text-gray-500 lg:text-sm xl:text-base">{{ item.label }}</span>
+          <span class="text-black lg:text-sm xl:text-base">{{ item.value }}</span>
           <div class="absolute bottom-0 left-0 right-0 border-b border-gray-300"></div>
         </div>
       </div>
       <div v-for="(item, index) in secondHalf" :key="`second-${index}`" class="col-span-2">
         <div class="flex justify-between relative pb-2">
-          <span class="text-gray-500">{{ item.label }}</span>
-          <span class="text-black">{{ item.value }}</span>
+          <span class="text-gray-500 lg:text-sm xl:text-base">{{ item.label }}</span>
+          <span class="text-black lg:text-sm xl:text-base">{{ item.value }}</span>
           <div class="absolute bottom-0 left-0 right-0 border-b border-gray-300"></div>
         </div>
       </div>
