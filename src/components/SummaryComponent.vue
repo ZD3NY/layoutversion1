@@ -9,8 +9,8 @@
           <img v-if="index === 0" :src="stairsIcon" alt="Stairs icon" class="h-6 w-6 sm:h-8 sm:w-8 md:h-6 md:w-6" />
           <img v-else-if="index === 1" :src="doorIcon" alt="Door icon" class="h-6 w-6 sm:h-8 sm:w-8 md:h-6 md:w-6" />
           <div class="ml-2">
-            <p class="text-gray-700 font-medium">{{ summary.title }}</p>
-            <p class="text-gray-500">{{ summary.value }}</p>
+            <p class="text-gray-700 font-medium text-xs sm:text-sm md:text-xs lg:text-lg">{{ summary.title }}</p>
+            <p class="text-gray-500 text-xs md:text-xs lg:text-lg">{{ summary.value }}</p>
           </div>
           <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded text-xs sm:py-2 sm:px-4 sm:text-sm md:py-1 md:px-2 md:text-xs lg:py-2 lg:px-4 lg:text-sm w-auto min-w-0" @click="summary.action">
             {{ summary.buttonText }}
