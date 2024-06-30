@@ -1,7 +1,7 @@
 <template>
     <div class="bg-gray-100 rounded-lg p-4 sm:text-sm md:text-xs">
       <div class="flex items-center justify-start mb-7">
-        <img src="@/assets/notes-logo.svg" alt="Notes Logo" class="h-6 w-6 mr-2 ms:h-8 sm:w-8 md:h-6 md:w-6"">
+        <img src="@/assets/notes-logo.svg" alt="Notes Logo" class="h-6 w-6 mr-2 ms:h-8 sm:w-8 md:h-6 md:w-6">
         <h3 class="text-lg font-bold mb-2">Celkový souhrn</h3>
       </div>
       <div class="flex space-x-4 mb-4">
